@@ -1,0 +1,19 @@
+{
+  "name": "curltorequests",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "./build.sh",
+    "test": "node_modules/standard/bin/cmd.js scripts/main.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "curlconverter": "^3.19.0"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "standard": "^13.1.0",
+    "uglify-es": "^3.3.9"
+  }
+}
